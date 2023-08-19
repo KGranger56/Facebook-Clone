@@ -3,7 +3,6 @@ import './LandingPage.css'
 
 import { Link } from 'react-router-dom';
 
-{/*import {Routes, Route, useNavigate} from 'react-router-dom';*/}
 
 export default function LandingPage() {
   return(
@@ -20,7 +19,7 @@ export default function LandingPage() {
           <input type="text" id="password" name="password" placeholder='Password'/>
           <br/>
           <Link to='/LogIn' className="log-in-btn">Log In</Link>
-          <Link to='/ForgotPassword' className="forgot-password">Forgot Password</Link>
+          <Link to='/ForgotPassword' className="forgot-password">Forgot Password?</Link>
           <hr className="loginBar"/>
           <button className="new-account"><b>Create New account</b></button>
         </form>

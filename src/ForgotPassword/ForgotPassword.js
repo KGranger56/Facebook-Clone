@@ -11,7 +11,7 @@ export default function ForgotPassword() {
         <div className="header-second-half">
           <input type="text" id="forgot-password-email-phone" name="email-phone"placeholder='Email or phone'/>
           <input type="text" id="forgot-password-password" name="password" placeholder='Password'/>
-          <button className="forgot-password-log-in-btn">Log In</button>
+          <Link to='/LogIn'><button className="forgot-password-log-in-btn">Log In</button></Link>
           <div className="forgot-account">Forgot Account?</div>
         </div>
       </div>
@@ -26,5 +26,3 @@ export default function ForgotPassword() {
     </div>
   );
 }
-
-ForgotPassword()

@@ -6,7 +6,7 @@ import Login from './LogIn/Login';
 import ForgotPassword from './ForgotPassword/ForgotPassword';
 import LandingPage from './LandingPage/LandingPage';
 
-import {useNavigate, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 
 function App() {
