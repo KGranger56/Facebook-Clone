@@ -1,25 +1,24 @@
+hr.languageBar{
+  width: 97%;
+}
+
 ul, li {
   text-decoration: none;
   list-style: none;
   padding-left: 0px;
 }
 
-container.footer {
-  position: absolute;
-  display: block;
-  margin: 0 auto;
+div.footer {
+  position: fixed;
   width: 100%;
-  background-color: white;
-  /*position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: var(--secondary-text-color);
-  margin: 0 auto;*/
+  background: white;
+  z-index: 10;
 }
 
 .footer-table{
+  margin: 0 auto;
   width: 980px;
   padding: 20px 1rem;
   display: flex;

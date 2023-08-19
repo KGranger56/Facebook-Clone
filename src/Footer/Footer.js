@@ -3,9 +3,9 @@ import './Footer.css';
 
 function Footer(){
   return (
-    <container class="footer">
-      <div class="footer-table">
-        <ul class="footer-row-1">
+    <div className="footer">
+      <div className="footer-table">
+        <ul className="footer-row-1">
           <li>English (US)</li>
           <li>Español</li>
           <li>Français (France)</li>
@@ -17,9 +17,10 @@ function Footer(){
           <li>Deutsch</li>
           <li>हिन्दी</li>
           <li>日本語</li>
-          <li><button class="footer-button">+</button></li>
+          <li><button className="footer-button">+</button></li>
         </ul>
-        <ul class="footer-row-2">
+        <hr className='languageBar'/>
+        <ul className="footer-row-2">
           <li>Sign Up</li>
           <li>Log In</li>
           <li>Messenger</li>
@@ -32,9 +33,10 @@ function Footer(){
           <li>Meta Store</li>
           <li>Meta Quest</li>
           <li>Instagram</li>
-        </ul>
-        <ul class="footer-row-3">
+          <li>Threads</li>
           <li>Fundraisers</li>
+        </ul>
+        <ul className="footer-row-3">
           <li>Services</li>
           <li>Voting Information Center</li>
           <li>Privacy Policy</li>
@@ -44,22 +46,22 @@ function Footer(){
           <li>Create ad</li>
           <li>Create Page</li>
           <li>Developers</li>
-        </ul>
-        <ul class="footer-row-4">
           <li>Careers</li>
           <li>Cookies</li>
           <li>Ad choices</li>
+        </ul>
+        <ul className="footer-row-4">
           <li>Terms</li>
           <li>Help</li>
           <li>Contact Uploading & Non-Users</li>
         </ul>
         <br/>
-        <ul class="footer-row-5">
+        <ul className="footer-row-5">
           <li>Meta © 2023</li>
 
         </ul>
       </div>
-    </container>
+    </div>
   )
 }
 
